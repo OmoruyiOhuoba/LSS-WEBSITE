@@ -10,8 +10,8 @@ let transporter = nodemailer.createTransport({
       port: 587,
       secure: false,
     auth: {
-      user: "omoruyiwebsitebookings@gmail.com",
-      pass: "#1strong*" 
+      user: "lssabuad@gmail.com",
+      pass: "" 
     }
   });
   
@@ -25,15 +25,15 @@ let transporter = nodemailer.createTransport({
   });
   
   
-router.route("/contact").post((req, res, next) => {
+router.route("/contactus").post((req, res, next) => {
     var name = req.body.name
     var email = req.body.email
     var message = req.body.message
     var content = `WEBSITE CONTACT-US INFO FROM USER\n\n\n\nName: ${name}\n\nEmail: ${email}\n\nMessage: ${message} `
   
     var mail = {
-      from: "omoruyiwebsitebookings@gmail.com", 
-      to: "omoruyiwebsitebookings@gmail.com, omoruyi_website_bookings@yahoo.com, omoruyiohuoba@yahoo.com, davidngozi2000@yahoo.com", 
+      from: "lssabuad@gmail.com", 
+      to: "lssabuad@gmail.com", 
       subject: "WEBSITE CONTACT-US INFO FROM USER",
       text: content
     }

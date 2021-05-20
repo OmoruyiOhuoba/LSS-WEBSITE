@@ -6,7 +6,7 @@ let nodemailer = require('nodemailer');
 const path = require('path');
 
 require("./database/db");
-const route = require("./routes/booking-routes");
+const route = require("./routes/contact-routes");
  
 const app = express();
 
@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cors());
-app.use("/api/bookings", route );
+app.use("/api/contact", route );
 
 app.use((req, res, next) => {
     const err = new Error('Not Found');
