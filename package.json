@@ -1,5 +1,5 @@
 {
-  "name": "LSS-WEBSITE",
+  "name": "LSSWEBSITE",
   "version": "1.0.0",
   "engines": {
     "node": "12.x"
@@ -19,6 +19,7 @@
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
     "mongodb": "^3.6.7",
     "mongoose": "^5.12.10",
     "multer": "^1.4.2",
@@ -26,5 +27,13 @@
     "nodemon": "^2.0.7"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmoruyiOhuoba/LSS-WEBSITE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OmoruyiOhuoba/LSS-WEBSITE/issues"
+  },
+  "homepage": "https://github.com/OmoruyiOhuoba/LSS-WEBSITE#readme",
   "description": ""
 }

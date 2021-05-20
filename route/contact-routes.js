@@ -11,7 +11,7 @@ let transporter = nodemailer.createTransport({
       secure: false,
     auth: {
       user: "lssabuad@gmail.com",
-      pass: "" 
+      pass: "ABUADLSS2019", 
     }
   });
   
@@ -29,12 +29,12 @@ router.route("/contactus").post((req, res, next) => {
     var name = req.body.name
     var email = req.body.email
     var message = req.body.message
-    var content = `WEBSITE CONTACT-US INFO FROM USER\n\n\n\nName: ${name}\n\nEmail: ${email}\n\nMessage: ${message} `
+    var content = `WEBSITE CONTACT-US MESSAGE FROM USER\n\n\n\nName: ${name}\n\nEmail: ${email}\n\nMessage: ${message} `
   
     var mail = {
       from: "lssabuad@gmail.com", 
       to: "lssabuad@gmail.com", 
-      subject: "WEBSITE CONTACT-US INFO FROM USER",
+      subject: "WEBSITE CONTACT-US MESSAGE FROM USER",
       text: content
     }
   
