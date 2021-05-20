@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
-const Booking = require("../models/booking-schema");
+const Contact = require("../models/contact-schema");
 const nodemailer = require('nodemailer');
 
 
@@ -50,7 +50,7 @@ router.route("/contact").post((req, res, next) => {
       }
     })
 
-     Booking.create(req.body, (error, data) => {
+     Contact.create(req.body, (error, data) => {
         if(error){
             return next(error);
         } else {
