@@ -6,7 +6,7 @@ import history from "../history";
 import Home from "./Home";
 import Directory from "./Directory";
 import Gallery from "./Gallery";
-import Articles from "./Articles";
+import News from "./News";
 import Awards from "./Awards";
 import Archives from "./Archives"
 import Contact from "./Contact";
@@ -24,7 +24,7 @@ const App = () =>{
                     <Route path="/home" component={Home}/>
                     <Route path="/directory" component={Directory} />
                     <Route path="/gallery" component={Gallery} />
-                    <Route path="/articles" component={Articles}/>
+                    <Route path="/news" component={News}/>
                     <Route path="/archives" component={Archives}/>
                     <Route path="/awards" component={Awards}/>
                     <Route path="/contact" component={Contact}/>

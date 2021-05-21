@@ -1,6 +1,6 @@
 import React from "react";
 
-const Awards = () =>{
+const News = () =>{
     return(
         <div>
 
@@ -8,4 +8,4 @@ const Awards = () =>{
     );
 }
 
-export default Awards;
+export default News;
