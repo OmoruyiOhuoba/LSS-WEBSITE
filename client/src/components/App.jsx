@@ -16,7 +16,7 @@ import Footer from "./Layout/Footer";
 const App = () =>{
     return(
         <div>
-            <Router>
+        <Router history={history}>
                 <NavBar /> 
                 
                 <Switch>
