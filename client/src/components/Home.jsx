@@ -2,8 +2,16 @@ import React from "react";
 
 const Home = () =>{
     return(
-        <div>
+        <div className="main-container-div">
+            <div className="landing-page-div">
 
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
         </div>
     );
 }

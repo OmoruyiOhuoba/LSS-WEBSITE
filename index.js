@@ -7,7 +7,7 @@ let nodemailer = require('nodemailer');
 const path = require('path');
 
 require("./database/db");
-const route = require("./routes/contact-routes");
+const route = require("./route/contact-routes");
  
 const app = express();
 
@@ -57,7 +57,7 @@ app.use((req, res, next) => {
   });
 
 
-app.listen(port, () => {
+  app.listen(port, () => {
     console.log("Server is running on port " + port)
 });
 
