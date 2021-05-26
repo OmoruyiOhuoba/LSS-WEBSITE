@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { animated, useSpring, config } from 'react-spring';
 import Logo from "../../assets/logo.jpeg";
+import SearchIcon from "../../assets/search.svg";
 import {Link} from "react-router-dom";
 
 const NavBar = () => {
@@ -18,6 +19,7 @@ const NavBar = () => {
     <div className='sticky'>
       <header className='header'>
           <a href="/"><img src={Logo} className= "logo" alt="logo"/></a>
+          <a href="/"><h1 className="title-h1"> LSS ABUAD</h1></a>
         <nav>
           <ul className='nav-links'>
             <li className='nav-item'>
@@ -124,7 +126,7 @@ const NavBar = () => {
      
           </ul>
         </animated.div>
-      
+     <div className="search-div"><a href="https://www.google.com/search?q=LSS+ABUAD&sxsrf=ALeKk00GLLRLebhdwiSN0QNKvstDIUcDKw%3A1621692142642&source=hp&ei=7g6pYN23JI6fUJacroAL&iflsig=AINFCbYAAAAAYKkc_gt_fBbdQfX8STgYHLPojt-LuBxS&oq=LSS+ABUAD&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECc6BQgAEJECOgUIABCxAzoCCAA6CgguELEDEIMBEAo6BQguELEDOggILhDHARCvAToCCC46CAgAELEDEIMBOgYIABAWEB46CAgAEBYQChAeUOYDWL0SYKwWaABwAHgAgAGKAogB3RCSAQMyLTmYAQCgAQGqAQdnd3Mtd2l6&sclient=gws-wiz&ved=0ahUKEwjd5uCAut3wAhWODxQKHRaOC7AQ4dUDCAc&uact=5"><img src={SearchIcon} alt="search-icon" className="search-img"/></a></div> 
       </header>
       <div className="below-header">
       <p className="below-p">nav</p>

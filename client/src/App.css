@@ -18,7 +18,7 @@
   
   .below-header{
     padding-top: 80px;
-    background-color: rgb(66, 66, 66);
+    background-color: white;
   
   }
   
@@ -48,7 +48,7 @@
     height: 45px;
     position: absolute;
     z-index: 1;
-    top: 10px;
+    top: 18px;
     left: 13px;
   }
   
@@ -178,9 +178,9 @@
   }
   
   .hamburger-icon {
-    padding: 20px 5px;
+    padding: 18px 5px;
     position: absolute;
-    top: 5px;
+    top: 7px;
     right: 15px;  
     z-index: 1;  
   }
@@ -188,7 +188,7 @@
   .hamburger-icon .cross {
     height: 3px;
     width: 40px;
-    background-color: white;
+    background-color: black;
     display: block;
     margin: 5px 0px 5px 0px;
     transition: 0.75s ease-in-out;
@@ -211,13 +211,13 @@
   
   .none .cross:nth-of-type(1) {
     transform: translate(0%, 425%) rotate(-45deg);
-    background-color: white;
+    background-color: black;
   }
   
   .none .cross:nth-of-type(2) {
     transform: rotate(45deg);
     width: 40px;
-    background-color: white;
+    background-color: black;
   }
   
   .menu-links{
@@ -225,6 +225,7 @@
   }
   
   /* END  OF HAMBURGER */
+
 
 
 @media screen and (max-width: 767px) {
@@ -240,6 +241,10 @@
     .content {
       margin-top: 64px;
     }
+
+    div.search-div{
+        display: none;
+    }
   
   
   }
@@ -248,14 +253,75 @@
     .hamburger {
       display: none;
     }
+
+    h1.title-h1{
+        display: none;
+    }
+
+      
+  .below-header{
+    padding-top: 40px;
+    background-color: rgb(66, 66, 66);
   
-    .logo{
+  }
+  
+    .none .cross:nth-of-type(1) {
+        background-color: white;
+      }
+      
+      .none .cross:nth-of-type(2) {
+        
+        background-color: white;
+      }
+
+      .hamburger-icon .cross {
+    
+        background-color: white;
+       
+      }
+      
+      .landing-page{
+        padding: 230px 15px 105px 15px;
+       
+      }
+
+    
+
+    img.logo{
       left: 30px;
-      top: 19px;
-      height: 40px;
+      top: 4px;
+      height: 32px;
     }
   
+    li.nav-item{
+        padding-top: 1px;
+    }
+
+    a{
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 11px;
+    }
+
+    div.search-div{
+        background-color: black;
+        position: absolute;
+        padding: 12px;
+        padding-right: 18px;
+        padding-left: 20px;
   
+        right: 0px;
+  
+  
+    }
+  
+    img.search-img{
+        height: 16px;
+        width: 16px;
+    }
+
+   
+
     div.important-div{
       margin: auto 15%;
       line-height: 32px;
@@ -463,13 +529,68 @@
 
   /* Home page Landing Page First div*/
 
-  h1{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 39px;
-    line-height: 39px;
-    font-weight: 600;
+
+
+  .landing-page{
+    background-image: url("./assets/background-image.jpg");
+    background-size: cover;
+    padding: 80px 15px 235px 35px;
+    position: relative;
+    top:0;
+    color: white;
     text-align: left;
+    padding-bottom: 235px;
+    font-family: "Sacramento";
+    margin-bottom: 0px;
+  }
+
+  .landing-page-text{
+      margin-bottom: 70px;
+  }
+  
+  h1.title-h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    position: absolute;
+    top: 19.5px;
+    left: 70px;
+    color: #005E85;   
+}
+
+  h1.landing-h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 59px;
+    line-height: 69px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
 
   }
 
-  
+.rectangle-box{
+    background-color: #355E87;
+    color: white;
+    margin: auto;
+    width: 310px;
+    height: 380px;
+    position: absolute;
+    padding: 38px;
+
+}
+
+.statement-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-bottom: 24px;
+    color: black;
+    letter-spacing: 5px;
+}
+
+.statement-body{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: left;
+    color: black;
+}
