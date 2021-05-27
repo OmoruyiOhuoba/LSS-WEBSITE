@@ -9,12 +9,12 @@ import SecondNavBar from "./Layout/SecondNavBar";
 import {Link} from "react-router-dom";
 
 
-const Products = () => {
+const Leadership = () => {
     return (
         <div>
         <div className="top-of-third-division arc">
 
-</div>
+        </div>
 <div className= "third-division">
         <div className="news">
         <img className="newsImg cartoon" src={News} alt="news "/>
@@ -45,7 +45,8 @@ const Products = () => {
 <div className="bottom-of-third-division arc">
 
         </div>
+    </div>
     )
 }
 
-export default Products;
+export default Leadership;

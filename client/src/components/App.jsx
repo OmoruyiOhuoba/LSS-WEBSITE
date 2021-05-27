@@ -6,8 +6,6 @@ import history from "../history";
 import Home from "./Home";
 import Leadership from "./Leadership";
 import Gallery from "./Gallery";
-import Awards from "./Awards";
-import Archives from "./Archives"
 import Contact from "./Contact";
 import NavBar from "./Layout/NavBar";
 import Footer from "./Layout/Footer";
@@ -26,8 +24,6 @@ const App = () =>{
                     <Route path="/gallery" component={Gallery} />
                     <Route path="/articles" component={Articles}/>
                     <Route path="/contact" component={Contact}/>
-                    <Route path="/archives" component={Archives}/>
-                    <Route path="/awards" component={Awards}/>
                 </Switch>
                 
                 <Footer />

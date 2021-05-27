@@ -38,6 +38,9 @@ const Contact = () => {
 
     return(<div className ="contactBody">
                 <br/>
+                <br />
+                <br />
+                <br />
                
             <div>
 

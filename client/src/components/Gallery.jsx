@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
 
 
 /*make them cards*/
-const Products = () => {
+const Gallery = () => {
     return (
         <div>
         <SecondNavBar />
@@ -81,4 +81,4 @@ const Products = () => {
     )
 }
 
-export default Products;
+export default Gallery;
