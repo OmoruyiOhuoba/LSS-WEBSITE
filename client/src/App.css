@@ -744,17 +744,106 @@ button {
       transform: translateY(-7px);
   }
 
-  /* end*/
 
   .buttonPosition{
     padding-right: 33%;
   }
 
+
+
   .contact-h1{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 59px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625em;
     line-height: 69px;
     font-weight: 400;
     text-align: center;
     color: black;
   }
+
+
+    /* end*/
+
+
+    /*Articles display grid and gallery display grid*/
+
+    .grid-container{
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 12px 12px;
+      grid-gap: 12px;
+      margin-bottom: 100px;
+      margin: auto;
+      padding-bottom: 100px;
+    }
+  
+    .grid-item{
+      width: 100%;
+      height: 340.58px;
+    }
+  
+    .grid-img{
+      width:100%;
+      height: 216.58px;
+    }
+  
+    .grid-text{
+      font-size: 14px;
+      line-height: 22px;
+    }
+  
+    .grid-p{
+      text-align: left;
+  
+    }
+  
+    .grid-price{
+      text-align: left;
+      padding-bottom: 8px;
+  
+  
+    }
+  
+    .grid-button{
+        width: 140px;
+        height: 45px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #fe000c;
+        background-color: white;
+        border: 2px solid black;
+        border-color: #fe000c;
+        border-radius: 45px;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+      
+    }
+  
+    .grid-button:hover{
+      background-color: #fe000c;
+      color: white;
+  
+  
+    }
+  
+  
+    /*media queries*/
+  
+    @media only screen and (min-width: 768px){
+    
+      .grid-container{
+        grid-template-columns: auto auto auto;
+      }
+  
+
+
+    }
+
+    @media only screen and (min-width: 1018px){
+      .grid-container{
+        grid-template-columns: auto auto auto auto;
+      }
+    }
+  
