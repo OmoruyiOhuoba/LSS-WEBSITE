@@ -12,8 +12,7 @@ const Articles = () => {
             <div>
             <h1 className="contact-h1">Articles</h1>
             <br/>
-            <p className="p-products">We deal in the sale and distribution of back up power solutions such as batteries and 
-                            inverters for world-class brands to support power use in homes and offices across Nigeria.</p>
+            <p className="p-products">Read the latest publications from the Law Student's Society.</p>
             </div>
             <div className="grid-container">
                 <div className="grid-item">
