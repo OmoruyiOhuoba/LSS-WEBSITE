@@ -14,7 +14,8 @@ const Home = () =>{
                     <p className="statement-title">STATEMENT</p>
                     <div className="rectangle-box-content">
                         
-                        <p className="statement-body">Taking over from Buchi Ofulue, Obinna Okolie has been announced as the new President of LSS. </p>
+                        <p className="statement-body">Taking over from Buchi Ofulue, Obinna Okolie 
+                            has been announced as the new President of LSS. </p>
                     </div>
 
                 </div>
@@ -23,12 +24,16 @@ const Home = () =>{
                 <img className="logo-2Img" src={logo2} alt="intro"/>
                 <br/>
                 <h2>Who are we?</h2>
-                <p className="about-lohi">LoHi Energy is a general contracting and oil services company. We are NIPEX certified and registered by The Department of Petroleum 
-                        Resources (DPR); regulators of the Nigerian Oil and Gas industry. With the 
-                        DPR certification, we are equipped to deal in the sales and distribution of 
-                        petroleum products such as Automotive Gas Oil (Diesel), Premium Motor Spirit 
-                        (Petrol), Dual Purpose Kerosene (Kerosene) and Base oil in both onshore and 
-                        offshore locations.</p>
+                <p className="about-lohi">The Law Students’ Society of Afe Babalola University is 
+                    the community of the Law Students of the University. The society, headed by a 
+                    student-led administration, is aimed at creating a sense of oneness within 
+                    the student body, and to bring about a lasting impact on the members. We work 
+                    toward enriching the Law Students’ experience, and to ensure that each person 
+                    on the path of getting a degree in Law from our renowned university leaves with 
+                    not only a superb academic record, but a lot of grounding in several aspects of 
+                    the Law, many of which might not be taught in the classrooms. The Society is 
+                    obligated to making sure that no student feels left out in the full experience 
+                    of being a Law student of Afe Babalola University Ado-Ekiti.</p>
 
             </div>
             
