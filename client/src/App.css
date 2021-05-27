@@ -744,3 +744,7 @@ button {
   }
 
   /* end*/
+
+  .buttonPosition{
+    padding-right: 33%;
+  }
