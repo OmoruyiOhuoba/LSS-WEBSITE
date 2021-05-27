@@ -1,4 +1,6 @@
 import React from "react";
+import Logo from "../assets/logo.jpeg";
+import {Link} from "react-router-dom";
 
 const Home = () =>{
     return(
@@ -9,7 +11,7 @@ const Home = () =>{
                     <h1 className="landing-h1">Equality.</h1>
                     <h1 className="landing-h1">Justice.</h1>
                 </div>
-
+ 
                 <div className="rectangle-box">            
                     <p className="statement-title">STATEMENT</p>
                     <div className="rectangle-box-content">
@@ -21,7 +23,7 @@ const Home = () =>{
                 </div>
             </div>
             <div id="second-continerId" className="second-container">
-                <img className="logo-2Img" src={logo2} alt="intro"/>
+                <img className="logo-2Img" src={Logo} alt="intro"/>
                 <br/>
                 <h2>Who are we?</h2>
                 <p className="about-lohi">The Law Students’ Society of Afe Babalola University is 
@@ -44,7 +46,7 @@ const Home = () =>{
             <div id="servicesId" className="third-container">
                 <h2>Our Services</h2>
                 <div className="services-div">
-                    <img className="services-img" src={worker} alt="diesel"/>
+                    <img className="services-img" src={Logo} alt="diesel"/>
                      
                     <div className="services-text">
                         <h3>Labour Contracting</h3>
@@ -54,7 +56,7 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div sales">         
-                    <img className="services-img" src={diesel} alt="diesel"/>
+                    <img className="services-img" src={Logo} alt="diesel"/>
                     
                     <div className="services-text">
                         <h3>Sale of Petroleum and Chemical products</h3>
@@ -66,7 +68,7 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div">
-                    <img className="services-img" src={pipe} alt="pipe"/>
+                    <img className="services-img" src={Logo} alt="pipe"/>
                     
                     <div className="services-text">
                         <h3>Supply of Pipes and Valves</h3>
@@ -76,7 +78,7 @@ const Home = () =>{
                 </div>
                 
                 <div className="services-div">
-                    <img className="services-img" src={handshake} alt="diesel"/>
+                    <img className="services-img" src={Logo} alt="diesel"/>
                     
                     <div className="services-text">
                         <h3>Outsourcing</h3>
@@ -87,7 +89,7 @@ const Home = () =>{
                 </div>
                 
                 <div className="services-div">
-                    <img className="services-img" src={truck} alt="diesel"/>
+                    <img className="services-img" src={Logo} alt="diesel"/>
                     
                     <div className="services-text">
                         <h3>Transportation and Logistics</h3>
@@ -98,12 +100,12 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div">
-                    <img className="services-img" src={battery} alt="diesel"/>
+                    <img className="services-img" src={Logo} alt="diesel"/>
                 
                     <div className="services-text">
                          <h3>Product Distributors</h3>
                         <p className="services-p"> We deal in the sale and distribution of back up power solutions from world class brands.</p>
-                            <Link to="/products"><button className="button-2">BUY</button></Link>
+                            <Link to="/"><button className="button-2">BUY</button></Link>
 
                     </div>
                 </div>
@@ -118,7 +120,7 @@ const Home = () =>{
                 <h2>Our Commitment</h2> 
                 <div className="card-div">
                 <div className="card-container red-red">
-                    <img className="cardImg" src={firstaid} alt="first-aid"/>
+                    <img className="cardImg" src={Logo} alt="first-aid"/>
                     <div className="card-text">
                         <h3>Safety</h3>
                         <p className="card-p">The health of workers and the security of the environment is paramount.</p>
@@ -126,7 +128,7 @@ const Home = () =>{
                 </div>
 
                 <div className="card-container green-green">
-                    <img className="cardImg" src={quality} alt="quality"/>
+                    <img className="cardImg" src={Logo} alt="quality"/>
                     <div className="card-text">
                         <h3>Quality</h3>
                         <p className="card-p">At LoHi Energy, we assure the highest quality of work in all our operations.</p>  
@@ -134,7 +136,7 @@ const Home = () =>{
                 </div>
 
                 <div className="card-container blue-blue">
-                    <img className="cardImg" src={efficiency} alt="efficiency"/>
+                    <img className="cardImg" src={Logo} alt="efficiency"/>
                     <div className="card-text">
                         <h3>Efficiency</h3>
                         <p className="card-p">We ensure the completion of all projects within stipulated time frames.</p> 

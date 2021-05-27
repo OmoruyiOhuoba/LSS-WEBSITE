@@ -43,8 +43,8 @@ const Contact = () => {
                 <br />
                
             <div>
-
-                <h1>Contact us.</h1>
+ 
+                <h1 className="contact-h1">Contact us.</h1>
 
             </div>
             <div className="contactForm">
@@ -53,14 +53,14 @@ const Contact = () => {
                  <input type="text" name="name" onChange={handleChange} required />
                  <span class="highlight"></span>
                  <span class="bar"></span>
-                <label>Your Name</label>
+                <label >Your Name</label>
             </div>
 
             <div class="input-group">
                 <input type="email" name="email" onChange={handleChange} required />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label>Your Email</label>
+                <label>Your E-mail</label>
             </div>
 
             <div class="input-group">

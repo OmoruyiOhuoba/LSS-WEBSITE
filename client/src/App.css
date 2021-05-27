@@ -639,6 +639,7 @@ label {
   color: #999;
   font-size: 18px;
   font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
   pointer-events: none;
   left: 5px;
@@ -652,7 +653,7 @@ input:focus ~ label,
 input:valid ~ label {
   top: -20px;
   font-size: 14px;
-  color: #009975;
+  color: rgb(66, 66, 66);
 }
 
 .bar {
@@ -668,7 +669,7 @@ input:valid ~ label {
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #009975;
+  background: rgb(66, 66, 66);
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -705,15 +706,15 @@ input:focus ~ .highlight {
 
 /* animations */
 @-webkit-keyframes inputHighlighter {
-  from { background: #009975; }
+  from { background: rgb(66, 66, 66); }
   to   { width: 0; background: transparent; }
 }
 @-moz-keyframes inputHighlighter {
-  from { background: #009975; }
+  from { background: rgb(66, 66, 66); }
   to   { width: 0; background: transparent; }
 }
 @keyframes inputHighlighter {
-  from { background: #009975; }
+  from { background: rgb(66, 66, 66); }
   to   { width: 0; background: transparent; }
 }
   
@@ -727,7 +728,7 @@ button {
   letter-spacing: 2.5px;
   font-weight: 500;
   color: white;
-  background-color: #009975;
+  background-color: rgb(66, 66, 66);
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -737,8 +738,8 @@ button {
   }
 
   button:hover {
-      background-color: #009975;
-      box-shadow: 0px 15px 20px rgb(0, 168, 150);
+      background-color: rgb(66, 66, 66);
+      box-shadow: 0px 15px 20px rgb(66, 66, 66);
       color: #fff;
       transform: translateY(-7px);
   }
@@ -747,4 +748,13 @@ button {
 
   .buttonPosition{
     padding-right: 33%;
+  }
+
+  .contact-h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 59px;
+    line-height: 69px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
   }
