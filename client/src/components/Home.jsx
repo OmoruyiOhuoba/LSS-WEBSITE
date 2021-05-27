@@ -11,8 +11,9 @@ const Home = () =>{
                 </div>
 
                 <div className="rectangle-box">            
-                    <p className="statement-title">ANNOUNCEMENT</p>
+                    <p className="statement-title">STATEMENT</p>
                     <div className="rectangle-box-content">
+                        
                         <p className="statement-body">Taking over from Buchi Ofulue, Obinna Okolie has been announced as the new President of LSS. </p>
                     </div>
 

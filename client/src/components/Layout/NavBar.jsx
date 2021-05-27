@@ -51,11 +51,11 @@ const NavBar = () => {
             </li>
             <li className='nav-item cont'>
               <Link
-                to='/news'
-                onClick={() => setActive('news')}
-                className={active === 'contact' ? 'active' : null}
+                to='/articles'
+                onClick={() => setActive('articles')}
+                className={active === 'articles' ? 'active' : null}
               >
-              NEWS
+              ARTICLES
               </Link>
             </li>
             <li className='nav-item cont'>
@@ -107,11 +107,11 @@ const NavBar = () => {
             </li>
             <li className='nav-item dropped'>
               <Link
-                to='/news'
-                onClick={() => setActive('news')}
-                className={active === 'news' ? 'active' : null}
+                to='/articles'
+                onClick={() => setActive('articles')}
+                className={active === 'articles' ? 'active' : null}
               >
-                NEWS
+                ARTICLES
               </Link>
             </li>
             <li className='nav-item dropped'>

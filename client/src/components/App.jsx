@@ -4,14 +4,14 @@ import {Router, Route, Switch} from "react-router-dom";
 import history from "../history";
 
 import Home from "./Home";
-import Directory from "./Directory";
+import Leadership from "./Leadership";
 import Gallery from "./Gallery";
-import News from "./News";
 import Awards from "./Awards";
 import Archives from "./Archives"
 import Contact from "./Contact";
 import NavBar from "./Layout/NavBar";
 import Footer from "./Layout/Footer";
+import Articles from "./Articles";
 
 const App = () =>{
     return(
@@ -22,12 +22,12 @@ const App = () =>{
                 <Switch>
                     <Route exact path="/" component={Home}/>
                     <Route path="/home" component={Home}/>
-                    <Route path="/directory" component={Directory} />
+                    <Route path="/leadership" component={Leadership} />
                     <Route path="/gallery" component={Gallery} />
-                    <Route path="/news" component={News}/>
+                    <Route path="/articles" component={Articles}/>
+                    <Route path="/contact" component={Contact}/>
                     <Route path="/archives" component={Archives}/>
                     <Route path="/awards" component={Awards}/>
-                    <Route path="/contact" component={Contact}/>
                 </Switch>
                 
                 <Footer />

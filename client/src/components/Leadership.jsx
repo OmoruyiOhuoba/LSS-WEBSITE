@@ -1,6 +1,6 @@
 import React from "react";
 
-const Directory = () =>{
+const Leadership = () =>{
     return(
         <div>
 
@@ -8,4 +8,4 @@ const Directory = () =>{
     );
 }
 
-export default Directory;
+export default Leadership;
