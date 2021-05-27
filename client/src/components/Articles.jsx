@@ -8,6 +8,7 @@ import inverter5 from "../assets/inverter-5.jpg";
 import SecondNavBar from "./Layout/SecondNavBar";
 import {Link} from "react-router-dom";
 
+/*make them cards*/
 
 const Products = () => {
     return (

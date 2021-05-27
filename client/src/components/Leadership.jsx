@@ -12,70 +12,38 @@ import {Link} from "react-router-dom";
 const Products = () => {
     return (
         <div>
-        <SecondNavBar />
-        <br/>
-            <div>
-            <h1>Products</h1>
+        <div className="top-of-third-division arc">
+
+</div>
+<div className= "third-division">
+        <div className="news">
+        <img className="newsImg cartoon" src={News} alt="news "/>
+        <h3>News</h3>
+        <p> Get all the lastest news first right in the palm of your hands as soon as it breaks. If it's out there, it's right here. Specially suited. Just for you our tatafo!</p>
+        </div>
+        
+        <div className="gossip">
             <br/>
-            <p className="p-products">We deal in the sale and distribution of back up power solutions such as batteries and 
-                            inverters for world-class brands to support power use in homes and offices across Nigeria.</p>
-            </div>
-            <div className="grid-container">
-                <div className="grid-item">
-                    <img className="grid-img" src={battery} alt="battery"/>
-                    <div className="grid-text">
-                        <p className="grid-p">Cleon 12V. 200AMP TUBULAR BATTERY	</p>
-                        <p className="grid-price"><b>₦110,000.00</b></p>
-                    </div>
-                    <Link to="/battery"><button className="grid-button">Buy</button></Link>
-                </div>
+            <br/>
+            <br/>
+            <img className="gossipImg cartoon" src={Gossip} alt="gossip "/>
+            <h3> Gossip</h3>
+            <p>We got all the juiciest gossip right here. We don't care if the gist is true or false. It's none of our business abeg. Once it trends, it's here fam.</p>
+        </div>
+        <div className="fashion">
+              <br/>
+            <br/>
+            <img className="fashionImg cartoon"src={Fashion} alt="fashion "/>
+            <div className="fashionText"><h3>Fashion</h3>
+            <p>You know we just had to add this section. We're steady showing you how to drip, you obviously need it smh...</p></div>
 
-                <div className="grid-item">
-                    <img className="grid-img" src={inverter1} alt="inverter"/>
-                    <div className="grid-text">
-                        <p className="grid-p">Xenon 900VA/12V. STATIC CONVERTER	</p>
-                        <p className="grid-price"><b>₦45,000.00</b></p>
-                    </div>
-                    <Link to="/xenon900va"><button className="grid-button">Buy</button></Link>
-                </div>
+            
 
-                <div className="grid-item">
-                    <img className="grid-img" src={inverter2} alt="inverter"/>
-                    <div className="grid-text">
-                        <p className="grid-p">Xenon 1100VA/12V. STATIC CONVERTER</p>
-                        <p className="grid-price"><b>₦50,000.00</b></p>
-                    </div>
-                    <Link to="/xenon1100va"><button className="grid-button">Buy</button></Link>
-                </div>
+        </div>
+<br/>
+</div> 
+<div className="bottom-of-third-division arc">
 
-                <div className="grid-item">
-                    <img className="grid-img" src={inverter3} alt="inverter"/>
-                    <div className="grid-text">
-                        <p className="grid-p">Xenon 2100VA/12V. STATIC CONVERTER</p>
-                        <p className="grid-price"><b>₦76,000.00</b></p>
-                    </div>
-                    <Link to="/xenon2100va"><button className="grid-button">Buy</button></Link>
-                </div>
-
-                <div className="grid-item">
-                    <img className="grid-img" src={inverter4} alt="inverter"/>
-                    <div className="grid-text">
-                        <p className="grid-p">Xenon 3.5KVA/48V. STATIC CONVERTER</p>
-                        <p className="grid-price"><b>₦150,000.00</b></p>
-                    </div>
-                    <Link to="/xenon3.5kva"><button className="grid-button">Buy</button></Link>
-                </div>
-
-                <div className="grid-item">
-                    <img className="grid-img" src={inverter5} alt="inverter"/>
-                    <div className="grid-text">
-                        <p className="grid-p">Xenon 5000VA/48V. STATIC CONVERTER  </p>
-                        <p className="grid-price"><b>₦270,000.00</b></p>
-                    </div>
-                    <Link to="/xenon5000va"><button className="grid-button">Buy</button></Link>
-                </div>
-
-            </div>
         </div>
     )
 }
