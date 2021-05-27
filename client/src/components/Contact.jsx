@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import NavBar from "./Layout/NavBar";
 import axios from "axios";
 
 const Contact = () => {
@@ -25,11 +24,11 @@ const Contact = () => {
     function submit(event){
         event.preventDefault();
 
-        axios.post("/api/bookings/contact", post)
+        axios.post("/api/contact/contactus", post)
         .then((res) => {
             console.log(res.data);
             document.getElementById("myForm").reset();
-            alert("Form submitted successfully!\nI appreciate you contacting me. I'll get back in touch with you soon.\nHave a great day.");
+            alert("Form submitted successfully!\nThank you for contacting us. We'll get back in touch with you soon.\nHave a great day.");
         }).catch((error) => {
             console.log(error);
         })
@@ -38,12 +37,11 @@ const Contact = () => {
 
 
     return(<div className ="contactBody">
-                <NavBar />
                 <br/>
                
             <div>
 
-                <h1>Contact me.</h1>
+                <h1>Contact us.</h1>
 
             </div>
             <div className="contactForm">
@@ -66,7 +64,7 @@ const Contact = () => {
                 <input type="text" name="message" onChange={handleChange} required />
                 <span class="highlight"></span>
                 <span class="bar"></span>
-                <label>Booking Details</label>
+                <label>Message </label>
             </div>
             <br/>
 
