@@ -32,13 +32,13 @@ const NavBar = () => {
               </Link>
             </li>
             <li className='nav-item'>
-              <a
+              <Link
                 to='/leadership'
                 onClick={() => setActive('leadership')}
                 className={active === 'leadership' ? 'active' : null}
               >
                 LEADERSHIP
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
               <Link
@@ -88,13 +88,13 @@ const NavBar = () => {
               </Link>
             </li>
             <li className='nav-item dropped'>
-              <a
+              <Link
                 to='/leadership'
                 onClick={() => setActive('leadership')}
                 className={active === 'leadership' ? 'active' : null}
               >
                 LEADERSHIP
-              </a>
+              </Link>
             </li>
             <li className='nav-item dropped'>
               <Link
