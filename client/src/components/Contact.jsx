@@ -75,6 +75,13 @@ const Contact = () => {
                 <button type="submit" onClick={submit}> Submit </button>
                 <br/>
                 <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
               </div>
             </form>
         </div>

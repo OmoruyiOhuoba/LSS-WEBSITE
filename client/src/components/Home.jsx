@@ -21,6 +21,18 @@ const Home = () =>{
                     <h1 className="landing-h1">Equality.</h1>
                     <h1 className="landing-h1">Justice.</h1>
                 </div>
+                <div className="top-left-pane">
+                    <p className="top-left-title">LSS ABUAD</p>
+                    <p className="top-left-p">PEOPLE</p>
+                    <hr />
+                    <p className="top-left-p">SERVICES </p>
+                    <hr />
+                    <p className="top-left-p">INSIGHTS</p>
+                    <hr />
+                    <p className="top-left-p">OUR STORY</p>
+
+
+                </div>
  
                 <div className="rectangle-box">            
                     <p className="statement-title">STATEMENT</p>
@@ -55,6 +67,8 @@ const Home = () =>{
 
             <div id="servicesId" className="third-container">
                 <h2>Our Activities</h2>
+                <br />
+                <br />
                 <div className="services-div">
                     <img className="services-img" src={gavel} alt="gavel"/>
                      
@@ -69,9 +83,7 @@ const Home = () =>{
                     
                     <div className="services-text">
                         <h3>Academic Discussions</h3>
-                        <p className="services-p">We sell and supply products such as Premium Motor Spirit (PMS), 
-                            Dual Purpose Kerosene (DPK), Automotive Gas Oil (AGO), Paint, Cosmetics and Detergent Chemicals.
-                        </p>
+                        <p className="services-p">The LSS Moot Court Session is a Mock trial proceeding aimed at providing Law students with a practical perspective at legal practice. Here, there are two sides (Claimant/Prosecutor and Defendant), as obtainable in a real life litigation proceeding. Our members are usually divided into Chambers (Jus Gentium, Jus Civile, Aequitas, and Jus Naturalis) and any of the two chambers face one another in court based on (usually) fictitious facts in dispute. The LSS Judiciary are in charge of judges (students in this case) who adjudicate the matters and give judgment.</p>
                     </div>
                     
                 </div>
@@ -80,8 +92,8 @@ const Home = () =>{
                     <img className="services-img" src={workingMan} alt="workingMan"/>
                     
                     <div className="services-text">
-                        <h3>Internship Placement openings</h3>
-                        <p className="services-p"> LoHi Energy is registered with the Nigerian Petroleum Exchange (NIPEX) to provide facilities and equipments to major oil companies operating in the Upstream Sector of the Petroleum Industry.</p>
+                        <h3>Internship Placements</h3>
+                        <p className="services-p"> The LSS Moot Court Session is a Mock trial proceeding aimed at providing Law students with a practical perspective at legal practice. Here, there are two sides (Claimant/Prosecutor and Defendant), as obtainable in a real life litigation proceeding. Our members are usually divided into Chambers (Jus Gentium, Jus Civile, Aequitas, and Jus Naturalis) and any of the two chambers face one another in court based on (usually) fictitious facts in dispute. The LSS Judiciary are in charge of judges (students in this case) who adjudicate the matters and give judgment.</p>
                     </div>
                     
                 </div>
@@ -91,9 +103,7 @@ const Home = () =>{
                     
                     <div className="services-text">
                         <h3>Training Seminars</h3>
-                        <p className="services-p">With our outsourcing model, third party 
-                            companies vetted by us to perform non-core business functions. 
-                            This enables your company to focus on its core competencies, reduce cost and improve efficiency.</p>
+                        <p className="services-p">The LSS Moot Court Session is a Mock trial proceeding aimed at providing Law students with a practical perspective at legal practice. Here, there are two sides (Claimant/Prosecutor and Defendant), as obtainable in a real life litigation proceeding. Our members are usually divided into Chambers (Jus Gentium, Jus Civile, Aequitas, and Jus Naturalis) and any of the two chambers face one another in court based on (usually) fictitious facts in dispute. The LSS Judiciary are in charge of judges (students in this case) who adjudicate the matters and give judgment.</p>
                     </div>
                 </div>
                 
@@ -101,9 +111,8 @@ const Home = () =>{
                     <img className="services-img" src={dancer} alt="dancer"/>
                     
                     <div className="services-text">
-                        <h3>social events</h3>
-                        <p className="services-p">We deliver materials and equipments to offshore 
-                            and onshore platforms. LoHi Energy provides optimum security and the fastest delivery time through land and sea transportation.</p>
+                        <h3>Social Events</h3>
+                        <p className="services-p">The LSS Moot Court Session is a Mock trial proceeding aimed at providing Law students with a practical perspective at legal practice. Here, there are two sides (Claimant/Prosecutor and Defendant), as obtainable in a real life litigation proceeding. Our members are usually divided into Chambers (Jus Gentium, Jus Civile, Aequitas, and Jus Naturalis) and any of the two chambers face one another in court based on (usually) fictitious facts in dispute. The LSS Judiciary are in charge of judges (students in this case) who adjudicate the matters and give judgment.</p>
 
                     </div>
                 </div>
@@ -112,8 +121,8 @@ const Home = () =>{
                     <img className="services-img" src={sport} alt="sport"/>
                 
                     <div className="services-text">
-                         <h3>Sporting Events</h3>
-                        <p className="services-p"> We deal in the sale and distribution of back up power solutions from world class brands.</p>
+                         <h3>Sport Competitions</h3>
+                        <p className="services-p"> The LSS Moot Court Session is a Mock trial proceeding aimed at providing Law students with a practical perspective at legal practice. Here, there are two sides (Claimant/Prosecutor and Defendant), as obtainable in a real life litigation proceeding. Our members are usually divided into Chambers (Jus Gentium, Jus Civile, Aequitas, and Jus Naturalis) and any of the two chambers face one another in court based on (usually) fictitious facts in dispute. The LSS Judiciary are in charge of judges (students in this case) who adjudicate the matters and give judgment.</p>
 
                     </div>
                 </div>
@@ -126,12 +135,14 @@ const Home = () =>{
 
             <div className="fourth-container">
                 <h2>Our Commitment</h2> 
+                <br />
+                <br />
                 <div className="card-div">
                 <div className="card-container red-red">
                     <img className="cardImg" src={lawBook} alt="lawBook"/>
                     <div className="card-text">
                         <h3>Truth</h3>
-                        <p className="card-p">The health of workers and the security of the environment is paramount.</p>
+                        <p className="card-p"></p>
                     </div>
                 </div>
 
@@ -139,7 +150,7 @@ const Home = () =>{
                     <img className="cardImg" src={compliant} alt="compliant"/>
                     <div className="card-text">
                         <h3>Equality</h3>
-                        <p className="card-p">At LoHi Energy, we assure the highest quality of work in all our operations.</p>  
+                        <p className="card-p"></p>  
                     </div>
                 </div>
 
@@ -147,7 +158,7 @@ const Home = () =>{
                     <img className="cardImg" src={law} alt="law"/>
                     <div className="card-text">
                         <h3>Justice</h3>
-                        <p className="card-p">We ensure the completion of all projects within stipulated time frames.</p> 
+                        <p className="card-p"></p> 
                     </div>
                 </div>
                </div>
