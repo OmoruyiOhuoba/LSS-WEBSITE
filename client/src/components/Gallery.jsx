@@ -7,13 +7,19 @@ import Logo from "../assets/logo.jpeg";
 const Gallery = () => {
     return (
         <div>
-        <br />
         <br/>
+                <br />
+                <br />
+                <br />
             <div>
-            <h1>Products</h1>
+            <h1 className="contact-h1">Gallery</h1>
             <br/>
-            <p className="p-products">We deal in the sale and distribution of back up power solutions such as batteries and 
-                            inverters for world-class brands to support power use in homes and offices across Nigeria.</p>
+            <br />
+            
+
+            <p>A look into our world of activities</p>
+            <br />
+            <br />
             </div>
             <div className="grid-container">
                 <div className="grid-item">

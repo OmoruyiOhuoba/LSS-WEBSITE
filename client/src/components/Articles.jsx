@@ -7,17 +7,24 @@ import Logo from "../assets/logo.jpeg";
 const Articles = () => {
     return (
         <div>
-        <br />
         <br/>
+                <br />
+                <br />
+                <br />
             <div>
             <h1 className="contact-h1">Articles</h1>
             <br/>
-            <p className="p-products">Read the latest publications from the Law Student's Society.</p>
+            <br />
+
+            <p>Read the latest publications from the Law Student's Society.</p>
+            <br />
+            <br />
+
             </div>
             <div className="grid-container">
                 <div className="grid-item">
-                    <img className="grid-img" src={Logo} alt="logo"/>
-                    <div className="grid-text">
+                    <img className="grid-img " src={Logo} alt="logo"/>
+                    <div className="grid-text card-text">
                         <p className="grid-p">Cleon 12V. 200AMP TUBULAR BATTERY	</p>
                         <p className="grid-price"><b>₦110,000.00</b></p>
                     </div>

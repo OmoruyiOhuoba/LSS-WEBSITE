@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-family: red;
+
+}
+
 /* NavBar*/
 
 .sticky {
@@ -784,6 +790,9 @@ button {
     .grid-item{
       width: 100%;
       height: 340.58px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
     }
   
     .grid-img{
@@ -839,7 +848,7 @@ button {
     @media only screen and (min-width: 768px){
     
       .grid-container{
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
       }
   
 
@@ -852,3 +861,291 @@ button {
       }
     }
   
+
+
+.top-of-third-division{
+  background-color: rgb(238, 241, 250);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width:1280px;
+  height:50px;
+}
+
+.bottom-of-third-division{
+  background-color: rgb(238, 241, 250);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width:1280px;
+  height:50px;
+}
+
+.third-division{
+  background-color: rgb(238, 241, 250);
+}
+
+.news{
+  width: 60%;
+  margin: 0px auto;
+  font-size: 20px;
+  text-align: justify;
+  padding-bottom: 100px;
+  
+}
+
+.gossip{
+  width: 70%;
+  margin: 0px auto;
+  font-size: 20px;
+  text-align: justify;
+  padding-bottom: 100px;
+
+}
+
+
+.newsImg{
+  float: left;
+  margin-right: 20px;
+  height: 300px;
+}
+
+.gossipImg{
+  float: right;
+  margin-left: 20px;
+  height: 280px;
+}
+
+.fashion{
+  width: 60%;
+  margin: 0px auto;
+  font-size: 20px;
+  text-align: justify;
+  padding-bottom: 100px;
+}
+
+.fashionImg{
+  float: left;
+  margin-right: 60px;
+  height: 350px;
+}
+
+.fashionText{
+  padding-top: 80px;
+}
+
+.cardImg{
+  height: 150px;
+  width: 150px;
+}
+
+
+@media only screen and (max-width: 506px){
+
+  .cartoon{
+     object-fit: fill;
+     width: 100%;
+  }
+
+}
+
+.arc{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/*Second container*/
+.logo-2Img{
+  width: 300px;
+  padding-bottom: 50px;
+}
+
+.about-lohi{
+  font-family: "Emprint", "Hind", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  line-height: 28px;
+  color: #6d6e71;
+  width: 80%;
+  margin: auto;
+
+}
+
+.second-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.third-container{
+  background-color: #f1f2f2;
+
+}
+.top-of-third-container{
+  background-color: #f1f2f2;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width:100%;
+  height:25px;
+}
+
+.bottom-of-third-container{
+  background-color: #f1f2f2;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  width:100%;
+  height:25px;
+  margin-bottom: 50px;
+}
+
+.services-div{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 90px;
+
+  
+}
+
+.services-img{
+  width: 80px;
+  padding-bottom: 20px;
+  display: inline-block;
+
+}
+
+.services-text{
+  display: inline-block;
+
+}
+
+.services-p{
+  font-family: "Emprint", "Hind", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  line-height: 28px;
+  color: #6d6e71;
+
+}
+
+.fourth-container{
+  padding-bottom: 25px;
+}
+
+
+@media only screen and (min-width: 768px){
+  .hamburger-icon{
+    display: none;
+  }
+
+  .grid-container{
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .about-lohi{
+    width: 70%;
+  }
+
+  /*HOW TO PLACE DIVS NEXT TO EACH OTHER IN THE FRONT END*/
+  /*third div container*/
+  .third-container{
+    margin: auto;
+  }
+
+  /*content of third div*/
+  .services-div{
+    display: inline-block;
+    width: 30%;
+    margin: 0 5%;
+  }
+
+
+  .sixth-container.services-div{
+    width: 70%;
+  }
+
+  .card-div{
+    margin: auto;
+  }
+
+  .card-container{
+    display: inline-block;
+    width: 30%;
+    margin: 5% 1%;
+
+  }
+
+  .top-of-third-container, .bottom-of-third-container, .top-of-fifth-container{
+    height: 50px;
+  }
+
+}
+
+@media only screen and (min-width: 1100px){ 
+  .close{
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .about-lohi{
+    width: 62.5%;
+  }
+
+  .third-container{
+    margin: auto;
+  }
+
+  /*content of third div*/
+  .services-div{
+    display: inline-block;
+    width: 25%;
+    margin: 0% 5%;
+  }
+
+
+  .sixth-container.services-div{
+    width: 65%;
+  }
+
+  .card-div{
+    margin: auto;
+  }
+
+  .card-container{
+    display: inline-block;
+    width: 25%;
+    margin: 5% 1%;
+
+  }
+
+
+}
+
+/*card*/
+
+.card-container{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.card-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-text{
+  padding: 15px 16px;
+  text-align: left;
+}
+
+.cardImg{
+  width: 100px;
+  padding-top: 15px;
+}
+
+.card-p{
+  color: #6d6e71;
+}
+
