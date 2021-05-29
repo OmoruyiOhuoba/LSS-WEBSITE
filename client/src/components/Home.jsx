@@ -7,7 +7,10 @@ import workingMan from "../assets/working-man.svg";
 import education from "../assets/education.svg";
 import dancer from "../assets/dancer.svg";
 import sport from "../assets/sport.svg";
-import 
+import compliant from "../assets/compliant.svg";
+import law from "../assets/law.svg";
+import lawBook from "../assets/law-book.svg";
+import courthouse from "../assets/courthouse.svg";
 
 const Home = () =>{
     return(
