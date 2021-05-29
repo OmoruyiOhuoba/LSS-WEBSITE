@@ -1,12 +1,12 @@
 import React from "react";
 import Logo from "../assets/logo.jpeg";
 import {Link} from "react-router-dom";
-import gavel from "../assets/gavel.svg";
-import academic from "../assets/academic.svg";
-import workingMan from "../assets/working-man.svg";
-import education from "../assets/education.svg";
-import dancer from "../assets/dancer.svg";
-import sport from "../assets/sport.svg";
+import gavel from "../assets/gavel3.svg";
+import academic from "../assets/academic2.svg";
+import workingMan from "../assets/working-man2.svg";
+import education from "../assets/education2.svg";
+import dancer from "../assets/dancer2.svg";
+import sport from "../assets/sport2.svg";
 import compliant from "../assets/compliant.svg";
 import law from "../assets/law.svg";
 import lawBook from "../assets/law-book.svg";
@@ -56,7 +56,7 @@ const Home = () =>{
             <div id="servicesId" className="third-container">
                 <h2>Our Activities</h2>
                 <div className="services-div">
-                    <img className="services-img" src={Logo} alt="diesel"/>
+                    <img className="services-img" src={gavel} alt="gavel"/>
                      
                     <div className="services-text">
                         <h3>Moot Court sessions</h3>
@@ -65,7 +65,7 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div sales">         
-                    <img className="services-img" src={Logo} alt="diesel"/>
+                    <img className="services-img" src={academic} alt="academic"/>
                     
                     <div className="services-text">
                         <h3>Academic Discussions</h3>
@@ -77,7 +77,7 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div">
-                    <img className="services-img" src={Logo} alt="pipe"/>
+                    <img className="services-img" src={workingMan} alt="workingMan"/>
                     
                     <div className="services-text">
                         <h3>Internship Placement openings</h3>
@@ -87,7 +87,7 @@ const Home = () =>{
                 </div>
                 
                 <div className="services-div">
-                    <img className="services-img" src={Logo} alt="diesel"/>
+                    <img className="services-img" src={education} alt="education"/>
                     
                     <div className="services-text">
                         <h3>Training Seminars</h3>
@@ -98,7 +98,7 @@ const Home = () =>{
                 </div>
                 
                 <div className="services-div">
-                    <img className="services-img" src={Logo} alt="diesel"/>
+                    <img className="services-img" src={dancer} alt="dancer"/>
                     
                     <div className="services-text">
                         <h3>social events</h3>
@@ -109,7 +109,7 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div">
-                    <img className="services-img" src={Logo} alt="diesel"/>
+                    <img className="services-img" src={sport} alt="sport"/>
                 
                     <div className="services-text">
                          <h3>Sporting Events</h3>
@@ -128,7 +128,7 @@ const Home = () =>{
                 <h2>Our Commitment</h2> 
                 <div className="card-div">
                 <div className="card-container red-red">
-                    <img className="cardImg" src={Logo} alt="first-aid"/>
+                    <img className="cardImg" src={lawBook} alt="lawBook"/>
                     <div className="card-text">
                         <h3>Truth</h3>
                         <p className="card-p">The health of workers and the security of the environment is paramount.</p>
@@ -136,7 +136,7 @@ const Home = () =>{
                 </div>
 
                 <div className="card-container green-green">
-                    <img className="cardImg" src={Logo} alt="quality"/>
+                    <img className="cardImg" src={compliant} alt="compliant"/>
                     <div className="card-text">
                         <h3>Equality</h3>
                         <p className="card-p">At LoHi Energy, we assure the highest quality of work in all our operations.</p>  
@@ -144,7 +144,7 @@ const Home = () =>{
                 </div>
 
                 <div className="card-container blue-blue">
-                    <img className="cardImg" src={Logo} alt="efficiency"/>
+                    <img className="cardImg" src={law} alt="law"/>
                     <div className="card-text">
                         <h3>Justice</h3>
                         <p className="card-p">We ensure the completion of all projects within stipulated time frames.</p> 

@@ -1151,3 +1151,71 @@ button {
   color: #6d6e71;
 }
 
+/*Footer*/
+.bottom-container{
+  background-color:#d2f3e0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 577px){
+
+
+.bottom-container{
+  object-fit: cover;
+  width: 100%;
+
+}
+
+  }
+
+
+  @media only screen and (min-height: 777px){     
+    .bottom-container{
+    margin-top: 330px;
+
+    }
+   
+    }
+
+    @media only screen and (min-height: 830px){
+     
+      .bottom-container{
+      margin-top: 565px;
+
+      }
+
+   
+      
+      }
+
+      .footer-link{
+        width: 150px;
+        display: inline-block;
+      }
+
+      @media only screen and (max-width: 480px){
+  
+        .footer-link{
+          width: 100px;
+        }
+      }
+
+
+
+    @media only screen and (max-width: 350px){
+  
+
+      .footer-link{
+        width: 80px;
+      }
+    
+      
+      }
+
+
+      .last{
+        color:#009975;
+        font-size: 12px;
+      }
