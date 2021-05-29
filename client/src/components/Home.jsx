@@ -1,6 +1,13 @@
 import React from "react";
 import Logo from "../assets/logo.jpeg";
 import {Link} from "react-router-dom";
+import gavel from "../assets/gavel.svg";
+import academic from "../assets/academic.svg";
+import workingMan from "../assets/working-man.svg";
+import education from "../assets/education.svg";
+import dancer from "../assets/dancer.svg";
+import sport from "../assets/sport.svg";
+import 
 
 const Home = () =>{
     return(
