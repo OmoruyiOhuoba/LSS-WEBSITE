@@ -497,6 +497,7 @@ p{
     }
   
     .second-container{
+      margin-top: 150px;
       margin-bottom: 150px;
     }
   
@@ -972,6 +973,7 @@ button {
 }
 
 .second-container{
+  margin-top: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
 }

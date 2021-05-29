@@ -44,14 +44,13 @@ const Home = () =>{
             </div>
 
             <div id="servicesId" className="third-container">
-                <h2>Our Services</h2>
+                <h2>Our Activities</h2>
                 <div className="services-div">
                     <img className="services-img" src={Logo} alt="diesel"/>
                      
                     <div className="services-text">
-                        <h3>Labour Contracting</h3>
-                        <p className="services-p">LoHi Energy has a well developed database of applicants with pre-requisite skills and 
-                            experience for the purpose of job placement in various fields and positions when the need arises from our clients in the oil sector.</p>
+                        <h3>Moot Court sessions</h3>
+                        <p className="services-p">The LSS Moot Court Session is a Mock trial proceeding aimed at providing Law students with a practical perspective at legal practice. Here, there are two sides (Claimant/Prosecutor and Defendant), as obtainable in a real life litigation proceeding. Our members are usually divided into Chambers (Jus Gentium, Jus Civile, Aequitas, and Jus Naturalis) and any of the two chambers face one another in court based on (usually) fictitious facts in dispute. The LSS Judiciary are in charge of judges (students in this case) who adjudicate the matters and give judgment.</p>
                     </div>   
                 </div>
 
@@ -59,7 +58,7 @@ const Home = () =>{
                     <img className="services-img" src={Logo} alt="diesel"/>
                     
                     <div className="services-text">
-                        <h3>Sale of Petroleum and Chemical products</h3>
+                        <h3>Academic Discussions</h3>
                         <p className="services-p">We sell and supply products such as Premium Motor Spirit (PMS), 
                             Dual Purpose Kerosene (DPK), Automotive Gas Oil (AGO), Paint, Cosmetics and Detergent Chemicals.
                         </p>
@@ -71,7 +70,7 @@ const Home = () =>{
                     <img className="services-img" src={Logo} alt="pipe"/>
                     
                     <div className="services-text">
-                        <h3>Supply of Pipes and Valves</h3>
+                        <h3>Internship Placement openings</h3>
                         <p className="services-p"> LoHi Energy is registered with the Nigerian Petroleum Exchange (NIPEX) to provide facilities and equipments to major oil companies operating in the Upstream Sector of the Petroleum Industry.</p>
                     </div>
                     
@@ -81,7 +80,7 @@ const Home = () =>{
                     <img className="services-img" src={Logo} alt="diesel"/>
                     
                     <div className="services-text">
-                        <h3>Outsourcing</h3>
+                        <h3>Training Seminars</h3>
                         <p className="services-p">With our outsourcing model, third party 
                             companies vetted by us to perform non-core business functions. 
                             This enables your company to focus on its core competencies, reduce cost and improve efficiency.</p>
@@ -92,7 +91,7 @@ const Home = () =>{
                     <img className="services-img" src={Logo} alt="diesel"/>
                     
                     <div className="services-text">
-                        <h3>Transportation and Logistics</h3>
+                        <h3>social events</h3>
                         <p className="services-p">We deliver materials and equipments to offshore 
                             and onshore platforms. LoHi Energy provides optimum security and the fastest delivery time through land and sea transportation.</p>
 
@@ -103,9 +102,8 @@ const Home = () =>{
                     <img className="services-img" src={Logo} alt="diesel"/>
                 
                     <div className="services-text">
-                         <h3>Product Distributors</h3>
+                         <h3>Sporting Events</h3>
                         <p className="services-p"> We deal in the sale and distribution of back up power solutions from world class brands.</p>
-                            <Link to="/"><button className="button-2">BUY</button></Link>
 
                     </div>
                 </div>
@@ -122,7 +120,7 @@ const Home = () =>{
                 <div className="card-container red-red">
                     <img className="cardImg" src={Logo} alt="first-aid"/>
                     <div className="card-text">
-                        <h3>Safety</h3>
+                        <h3>Truth</h3>
                         <p className="card-p">The health of workers and the security of the environment is paramount.</p>
                     </div>
                 </div>
@@ -130,7 +128,7 @@ const Home = () =>{
                 <div className="card-container green-green">
                     <img className="cardImg" src={Logo} alt="quality"/>
                     <div className="card-text">
-                        <h3>Quality</h3>
+                        <h3>Equality</h3>
                         <p className="card-p">At LoHi Energy, we assure the highest quality of work in all our operations.</p>  
                     </div>
                 </div>
@@ -138,7 +136,7 @@ const Home = () =>{
                 <div className="card-container blue-blue">
                     <img className="cardImg" src={Logo} alt="efficiency"/>
                     <div className="card-text">
-                        <h3>Efficiency</h3>
+                        <h3>Justice</h3>
                         <p className="card-p">We ensure the completion of all projects within stipulated time frames.</p> 
                     </div>
                 </div>
