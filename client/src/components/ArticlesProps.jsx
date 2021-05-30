@@ -8,7 +8,7 @@ const ArticlesProps = (props) => {
                     <img className="grid-img " src={props.image} alt="logo"/>
                     <div className="grid-text card-text">
                         <p className="grid-p">{props.firstp}	</p>
-                        <p className="grid-price"><b>{props.secondp}</b></p>
+                        <p className="grid-price">{props.secondp}</p>
                     </div>
                 </div>
     )
