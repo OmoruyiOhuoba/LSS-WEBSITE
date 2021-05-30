@@ -45,6 +45,8 @@ import a40 from "../assets/40.jpg";
 
 /*make them cards*/
 
+
+
 const Gallery = () => {
     return (
         <div>
@@ -112,4 +114,5 @@ const Gallery = () => {
 }
 
 export default Gallery;
+
 

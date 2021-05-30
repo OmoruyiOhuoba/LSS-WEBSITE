@@ -129,15 +129,7 @@ p{
     color: black;
     font-weight: bold;
   }
-  
-  
-  
-  a.active {
-    color: black;
-  }
-  
-  
-  
+    
   .external {
     color: black;
   }
@@ -806,7 +798,7 @@ button {
 
     .grid-container{
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto ;
       padding: 12px 12px;
       grid-gap: 12px;
       margin-bottom: 100px;
@@ -872,19 +864,39 @@ button {
   
   
     /*media queries*/
+
+    @media only screen and (min-width: 425px){
+    
+      div.grid-container{
+        grid-template-columns: auto  ;
+      }
+  
+
+
+    }
   
     @media only screen and (min-width: 768px){
     
-      .grid-container{
-        grid-template-columns: auto auto auto auto;
+      div.grid-container{
+        grid-template-columns: auto auto ;
       }
   
 
 
     }
 
-    @media only screen and (min-width: 1018px){
-      .grid-container{
+    @media only screen and (min-width: 882px){
+    
+      div.grid-container{
+        grid-template-columns: auto auto auto ;
+      }
+  
+
+
+    }
+
+    @media only screen and (min-width: 1010px){
+      div.grid-container{
         grid-template-columns: auto auto auto auto;
       }
 
@@ -1307,17 +1319,21 @@ button {
 
       .last{
         color:white;
-        font-size: 14px;
+        font-size: 18px;
       }
 
-      .last-last{
+      a.last-last{
         text-decoration: underline;
+        font-family: serif;
+        font-size: 18px;
+
       }
   
       a.footer-link{
-        font-size: 14px;
+        font-size: 18px;
         color: white;
         padding-bottom: 20px;
+        font-family: serif;
       }
 
       .leader{
@@ -1337,6 +1353,15 @@ button {
         width:100%;
         height: 340.58px;
       }
+
+      /*.grid-img-gallery:hover{
+        z-index: 2;
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+      }*/
 
       .grid-p {
         width: 250px;
