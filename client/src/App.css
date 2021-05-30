@@ -826,6 +826,9 @@ button {
   
     .grid-p{
       text-align: left;
+      color: black;
+
+
   
     }
   
@@ -1342,10 +1345,11 @@ button {
 
       p.leader-p{
         font-family: "Emprint", "Hind", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
+        font-weight: 300;
+        font-size: 16px;
         line-height: 28px;
         color: #6d6e71;
+        margin: auto;
       
       }
 

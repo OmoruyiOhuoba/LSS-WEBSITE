@@ -33,7 +33,7 @@ router.route("/contactus").post((req, res, next) => {
   
     var mail = {
       from: "lssabuad@gmail.com", 
-      to: "lssabuad@gmail.com", 
+      to: "lss@abuad.edu.ng", 
       subject: "WEBSITE CONTACT-US MESSAGE FROM USER",
       text: content
     }
