@@ -1,6 +1,4 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import Logo from "../assets/logo.jpeg";
 import GalleryProps from "./GalleryProps";
 import a1 from "../assets/1.jpg";
 import a2 from "../assets/2.jpg";

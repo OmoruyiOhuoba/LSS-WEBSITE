@@ -1,6 +1,4 @@
 import React from "react";
-import Logo from "../assets/logo.jpeg";
-import {Link} from "react-router-dom";
 import pres from "../assets/president.jpg";
 import vicepres from "../assets/vice-president.jpg";
 import tre from "../assets/tre.jpg";
@@ -13,7 +11,6 @@ import fs from "../assets/fs.jpg";
 import afs from "../assets/afs.jpg";
 import wd from "../assets/wd.jpg";
 import awo from "../assets/awo.jpg";
-import leaders from "../assets/leaders.jpg";
 
 
 

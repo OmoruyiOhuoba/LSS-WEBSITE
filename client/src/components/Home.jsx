@@ -1,6 +1,5 @@
 import React from "react";
 import Logo from "../assets/logo.jpeg";
-import {Link} from "react-router-dom";
 import gavel from "../assets/gavel3.svg";
 import academic from "../assets/academic2.svg";
 import workingMan from "../assets/working-man2.svg";
@@ -10,7 +9,6 @@ import sport from "../assets/sport2.svg";
 import compliant from "../assets/compliant.svg";
 import law from "../assets/law.svg";
 import lawBook from "../assets/law-book.svg";
-import courthouse from "../assets/courthouse.svg";
 
 const Home = () =>{
     return(

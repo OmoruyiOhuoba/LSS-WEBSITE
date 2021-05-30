@@ -1,4 +1,3 @@
-import { PromiseProvider } from "mongoose";
 import React from "react";
 
 const GalleryProps = (props) => {
@@ -9,7 +8,7 @@ const GalleryProps = (props) => {
                         <p className="grid-p">{props.firstp}</p>
                     </div>
                 </div>
-                
+
     )
 }
 
