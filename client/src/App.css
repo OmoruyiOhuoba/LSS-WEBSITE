@@ -1040,7 +1040,6 @@ button {
 }
 
 .cartoon{
-  border-radius: 50%;
   width: 250px;
 }
 @media only screen and (max-width: 506px){

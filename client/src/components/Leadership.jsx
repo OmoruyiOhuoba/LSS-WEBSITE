@@ -49,16 +49,6 @@ const Leadership = () => {
         <p className="leader-p"> Andrea Okey-Ehieze</p>
 </div>
         </div>
-        <div className="news">
-            <img className="newsImg cartoon" src={tre} alt="logo "/>
-            <div className="leader">
-
-           
-            <h2>Treasurer</h2>
-            <p className="leader-p">Obinna Okolie</p>
-            </div>
-            </div>
-        
         <div className="gossip">
             <br/>
             <br/>
@@ -80,7 +70,15 @@ const Leadership = () => {
             <p className="leader-p">Jaja Princess</p>
             </div>
             </div>
-        
+        <div className="news">
+            <img className="newsImg cartoon" src={tre} alt="logo "/>
+            <div className="leader">
+
+           
+            <h2>Treasurer</h2>
+            <p className="leader-p">Obinna Okolie</p>
+            </div>
+            </div> 
         <div className="gossip">
             <br/>
             <br/>
