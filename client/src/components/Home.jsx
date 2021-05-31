@@ -22,6 +22,16 @@ const Home = () =>{
                 </div>
                 <div className="top-left-pane">
                     <p className="top-left-title">Law Students' Soceiety ABUAD</p>
+                    <div className="justgoleft">
+                    <p className="top-left-p">PEOPLE</p>
+                    <hr />
+                    <p className="top-left-p">SERVICES </p>
+                    <hr />
+                    <p className="top-left-p">INSIGHTS</p>
+                    <hr />
+                    <p className="top-left-p">OUR STORY</p>
+                    </div>
+                    
             
 
 
