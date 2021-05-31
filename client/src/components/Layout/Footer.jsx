@@ -10,8 +10,8 @@ const Footer = () =>{
      <a className="footer-link" href="mailto:lss.abuad.edu.ng?subject=CONTACT MESSAGE FROM YOUR LSS WEBSITE" target="_blank " rel="noopener noreferrer">Email</a>
     
      <a className="footer-link" href="www.twitter.com/lssabuad" target="_blank" rel="noopener noreferrer">Twitter</a>
-     <a href="www.instagram.com/lssabuad"className="footer-link" target="_blank" rel="noopener noreferrer">Linkedin</a> 
-     <a className="footer-link" href="mailto:lss.abuad.edu.ng?subject=CONTACT MESSAGE FROM YOUR LSS WEBSITE" target="_blank " rel="noopener noreferrer">Instagram</a>
+     <a href="https://www.linkedin.com/mwlite/company/law-students-society-abuad"className="footer-link" target="_blank" rel="noopener noreferrer">Linkedin</a> 
+     <a className="footer-link" href="www.instagram.com/lssabuad" target="_blank " rel="noopener noreferrer">Instagram</a>
      <p className="last">© {new Date().getFullYear()} Made by <span className="last-last"><a href="/#about" class="last-last">Omoruyi Ohuoba.</a></span> All Rights Reserved.</p>
    </div>
         )
