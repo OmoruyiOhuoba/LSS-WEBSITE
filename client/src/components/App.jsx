@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import NavBar from "./Layout/NavBar";
 import Footer from "./Layout/Footer";
 import Articles from "./Articles";
+import HonourRole from "./HonorRole";
 
 const App = () =>{
     return(
@@ -21,8 +22,9 @@ const App = () =>{
                     <Route exact path="/" component={Home}/>
                     <Route path="/home" component={Home}/>
                     <Route path="/leadership" component={Leadership} />
-                    <Route path="/gallery" component={Gallery} />
+                    <Route path="/activities" component={Gallery} />
                     <Route path="/articles" component={Articles}/>
+                    <Route path="/honourrole" component={HonourRole}/>
                     <Route path="/contact" component={Contact}/>
                 </Switch>
                 
