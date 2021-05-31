@@ -9,6 +9,7 @@ import sport from "../assets/sport2.svg";
 import compliant from "../assets/compliant.svg";
 import law from "../assets/law.svg";
 import lawBook from "../assets/law-book.svg";
+import {Link} from "react-router-dom";
 
 const Home = () =>{
     return(
@@ -63,7 +64,7 @@ const Home = () =>{
                 <br />
                 <br />
                 <div className="services-div">
-                    <img className="services-img" src={gavel} alt="gavel"/>
+                   <Link to="/activities"> <img className="services-img" src={gavel} alt="gavel"/></Link>
                      
                     <div className="services-text">
                         <h3>Moot Court sessions</h3>
@@ -72,7 +73,7 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div sales">         
-                    <img className="services-img" src={academic} alt="academic"/>
+                <Link to="/activities"> <img className="services-img" src={academic} alt="gavel"/></Link>
                     
                     <div className="services-text">
                         <h3>Academic Discussions</h3>
@@ -82,7 +83,7 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div">
-                    <img className="services-img" src={workingMan} alt="workingMan"/>
+                <Link to="/activities"> <img className="services-img" src={workingMan} alt="gavel"/></Link>
                     
                     <div className="services-text">
                         <h3>Internship Placements</h3>
@@ -93,7 +94,7 @@ const Home = () =>{
                 </div>
                 
                 <div className="services-div">
-                    <img className="services-img" src={education} alt="education"/>
+                <Link to="/activities"> <img className="services-img" src={education} alt="gavel"/></Link>
                     
                     <div className="services-text">
                         <h3>Training Seminars</h3>
@@ -102,7 +103,7 @@ const Home = () =>{
                 </div>
                 
                 <div className="services-div">
-                    <img className="services-img" src={dancer} alt="dancer"/>
+                <Link to="/activities"> <img className="services-img" src={dancer} alt="gavel"/></Link>
                     
                     <div className="services-text">
                         <h3>Social Events</h3>
@@ -112,7 +113,7 @@ const Home = () =>{
                 </div>
 
                 <div className="services-div">
-                    <img className="services-img" src={sport} alt="sport"/>
+                <Link to="/activities"> <img className="services-img" src={sport} alt="gavel"/></Link>
                 
                     <div className="services-text">
                          <h3>Sport Competitions</h3>

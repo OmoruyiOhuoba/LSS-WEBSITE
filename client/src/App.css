@@ -90,7 +90,7 @@ p{
     padding: 16px;
     padding-top: 20px;
     color: rgb(66, 66, 66);
-    padding-right: 32px;
+    padding-right: 20px;
   }
   
   .cont{
@@ -926,7 +926,7 @@ button {
         padding: 16px;
         padding-top: 20px;
         color: rgb(66, 66, 66);
-        padding-right: 106px;
+        padding-right: 96px;
       }
     
       .nav-icon-1{
@@ -1371,4 +1371,15 @@ button {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+   }
+
+   .gallery-p{
+     width: 80%;
+     margin: auto;
+     padding: 10px 0;
+     font-family: "Emprint", "Hind", sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #6d6e71;
    }

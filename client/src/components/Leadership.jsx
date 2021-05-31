@@ -53,7 +53,7 @@ const Leadership = () => {
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg cartoon" src={gs} alt="gossip "/>
+            <img className="newsImg cartoon" src={gs} alt="gossip "/>
             <div className="leader">
 
            
@@ -62,7 +62,7 @@ const Leadership = () => {
 </div>
         </div>
         <div className="news">
-            <img className="newsImg cartoon" src={ags} alt="logo "/>
+            <img className="gossipImg cartoon" src={ags} alt="logo "/>
             <div className="leader">
 
            

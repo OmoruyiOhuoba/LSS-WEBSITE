@@ -24,15 +24,6 @@ const NavBar = () => {
           <ul className='nav-links'>
             <li className='nav-item'>
               <Link
-                to='/home'
-                onClick={() => setActive('home')}
-                className={active === 'home' ? 'active' : null}
-              >
-                HOME
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
                 to='/leadership'
                 onClick={() => setActive('leadership')}
                 className={active === 'leadership' ? 'active' : null}
@@ -46,7 +37,7 @@ const NavBar = () => {
                 onClick={() => setActive('gallery')}
                 className={active === 'gallery' ? 'active' : null}
               >
-                GALLERY
+                ACTIVITIES
               </Link>
             </li>
             <li className='nav-item cont'>
@@ -56,6 +47,15 @@ const NavBar = () => {
                 className={active === 'articles' ? 'active' : null}
               >
               ARTICLES
+              </Link>
+            </li>
+            <li className='nav-item cont'>
+              <Link
+                to='/honourrole'
+                onClick={() => setActive('honourrole')}
+                className={active === 'honourrole' ? 'active' : null}
+              >
+              HONOUR ROLE
               </Link>
             </li>
             <li className='nav-item cont'>
@@ -80,15 +80,6 @@ const NavBar = () => {
           <ul className='menu-links'>
             <li className='nav-item dropped'>
               <Link
-                to='/home'
-                onClick={() => setActive('home')}
-                className={active === 'home' ? 'active' : null}
-              >
-                HOME
-              </Link>
-            </li>
-            <li className='nav-item dropped'>
-              <Link
                 to='/leadership'
                 onClick={() => setActive('leadership')}
                 className={active === 'leadership' ? 'active' : null}
@@ -102,7 +93,7 @@ const NavBar = () => {
                 onClick={() => setActive('gallery')}
                 className={active === 'gallery' ? 'active' : null}
               >
-                GALLERY
+              ACTIVITIES
               </Link>
             </li>
             <li className='nav-item dropped'>
@@ -112,6 +103,15 @@ const NavBar = () => {
                 className={active === 'articles' ? 'active' : null}
               >
                 ARTICLES
+              </Link>
+            </li>
+            <li className='nav-item dropped'>
+              <Link
+                to='/honourrole'
+                onClick={() => setActive('honourrole')}
+                className={active === 'honourrole' ? 'active' : null}
+              >
+                HONOUR ROLE
               </Link>
             </li>
             <li className='nav-item dropped'>

@@ -39,6 +39,10 @@ import a37 from "../assets/37.jpg";
 import a38 from "../assets/38.jpg";
 import a39 from "../assets/39.jpg";
 import a40 from "../assets/40.jpg";
+import a41 from "../assets/41.jpg";
+import a42 from "../assets/42.jpg";
+import a43 from "../assets/43.jpg";
+import a44 from "../assets/44.jpg";
 
 
 /*make them cards*/
@@ -58,37 +62,26 @@ const Gallery = () => {
             <br />
             
 
-            <p>A look into our world of activities</p>
             <br />
             <br />
             </div>
-            <div className="grid-container">
+            <div>
+                <h2>Moot Court Sessions</h2>
+                <p className="gallery-p">The LSS Moot Court Session is a Mock trial proceeding aimed at providing Law students with a practical perspective at legal practice. Here, there are two sides (Claimant/Prosecutor and Defendant), as obtainable in a real life litigation proceeding. Our members are usually divided into Chambers (Jus Gentium, Jus Civile, Aequitas, and Jus Naturalis) and any of the two chambers face one another in court based on (usually) fictitious facts in dispute. The LSS Judiciary are in charge of judges (students in this case) who adjudicate the matters and give judgment.</p>
+
+                            <div className="grid-container">
                 <GalleryProps image={a1} firstp="" />
                 <GalleryProps image={a2} firstp="" />
-                <GalleryProps image={a3} firstp="" />
-                <GalleryProps image={a4} firstp="" />
-                <GalleryProps image={a5} firstp="" />
-                <GalleryProps image={a6} firstp="" />
-                <GalleryProps image={a7} firstp="" />
-                <GalleryProps image={a8} firstp="" />
-                <GalleryProps image={a9} firstp="" />
-                <GalleryProps image={a10} firstp="" />
+                
                 <GalleryProps image={a11} firstp="" />
                 <GalleryProps image={a12} firstp="" />
-                <GalleryProps image={a13} firstp="" />
                 <GalleryProps image={a14} firstp="" />
-                <GalleryProps image={a15} firstp="" />
                 <GalleryProps image={a16} firstp="" />
                 <GalleryProps image={a17} firstp="" />
                 <GalleryProps image={a18} firstp="" />
-                <GalleryProps image={a19} firstp="" />
-                <GalleryProps image={a21} firstp="" />
                 <GalleryProps image={a22} firstp="" />
-                <GalleryProps image={a23} firstp="" />
-                <GalleryProps image={a24} firstp="" />
-                <GalleryProps image={a25} firstp="" />
-                <GalleryProps image={a26} firstp="" />
-                <GalleryProps image={a27} firstp="" />
+               
+                
                 <GalleryProps image={a28} firstp="" />
                 <GalleryProps image={a29} firstp="" />
                 <GalleryProps image={a30} firstp="" />
@@ -107,6 +100,55 @@ const Gallery = () => {
   
            
             </div>
+            </div>
+
+            <div>
+                <h3>Sports Competitions</h3>
+                <p className="gallery-p">ABUAD has a variety of sports equipment, and at the LSS we try to utilize them as much as possible. The LSS Sports Committee is led by its Sports Director and their Assistant. They have a duty of making arrangements for sporting events for members of the Society.
+
+At the LSS, we participate in the annual Inter-Collegiate Sports Competition, where we compete with other colleges in football, basketball, swimming, volleyball, chess, badminton, table tennis, and more. We also hold our own intra-college competition among every level during our Chambers’ Week and Law Week. More so, every year, in honour of our College’s Provost, we play the Provost’s Cup, where one Level emerges winner after a series of football matches.</p>
+    <div className="grid-container">
+                <GalleryProps image={a3} firstp="" />
+                <GalleryProps image={a4} firstp="" />
+                <GalleryProps image={a5} firstp="" />
+                <GalleryProps image={a6} firstp="" />
+                <GalleryProps image={a7} firstp="" />
+                <GalleryProps image={a8} firstp="" />
+                <GalleryProps image={a9} firstp="" />
+                <GalleryProps image={a10} firstp="" />
+                <GalleryProps image={a24} firstp="" />
+
+                <GalleryProps image={a13} firstp="" />
+                <GalleryProps image={a15} firstp="" />
+                <GalleryProps image={a23} firstp="" />
+                <GalleryProps image={a25} firstp="" />
+                <GalleryProps image={a26} firstp="" />
+                <GalleryProps image={a27} firstp="" />
+
+
+
+
+            </div>
+            
+            </div>
+            
+            <div>
+                <h3>Academic Discussions</h3>
+                <p className="gallery-p">The Academic Committee of the LSS (headed by the Vice President of the Society) organizes academic discussions on a regular basis. The Society’s leadership understands that learning does not have to end with lectures taken by lecturers; we believe that academic discussions led by students for students go a long way in improving knowledge in Law and other fields that are relevant to us as lawyers. The Academic Committee organizes symposiums where important legal, economic, and social matters are conversed about by students across all levels. .</p>
+                <div className="grid-container">
+                <GalleryProps image={a44} firstp="" />
+                <GalleryProps image={a41} firstp="" />
+                <GalleryProps image={a42} firstp="" />
+                <GalleryProps image={a43} firstp="" />
+               
+
+
+
+
+            </div>
+            
+            </div>
+
         </div>
     )
 }
