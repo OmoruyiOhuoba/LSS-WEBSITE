@@ -41,7 +41,7 @@ const Leadership = () => {
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg cartoon" src={vicepres} alt="gossip "/>
+            <img className="gossipImg cartoon" src={vicepres} alt="law "/>
             <div className="leader">
 
            
@@ -53,7 +53,7 @@ const Leadership = () => {
             <br/>
             <br/>
             <br/>
-            <img className="newsImg cartoon" src={gs} alt="gossip "/>
+            <img className="newsImg cartoon" src={gs} alt="law "/>
             <div className="leader">
 
            
@@ -62,7 +62,7 @@ const Leadership = () => {
 </div>
         </div>
         <div className="news">
-            <img className="gossipImg cartoon" src={ags} alt="logo "/>
+            <img className="gossipImg cartoon" src={ags} alt="law "/>
             <div className="leader">
 
            
@@ -71,7 +71,7 @@ const Leadership = () => {
             </div>
             </div>
         <div className="news">
-            <img className="newsImg cartoon" src={tre} alt="logo "/>
+            <img className="newsImg cartoon" src={tre} alt="law "/>
             <div className="leader">
 
            
@@ -83,7 +83,7 @@ const Leadership = () => {
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg cartoon" src={pro} alt="gossip "/>
+            <img className="gossipImg cartoon" src={pro} alt="law "/>
             <div className="leader">
 
            
@@ -105,7 +105,7 @@ const Leadership = () => {
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg cartoon" src={ados} alt="gossip "/>
+            <img className="gossipImg cartoon" src={ados} alt="law "/>
             <div className="leader">
 
            
@@ -127,7 +127,7 @@ const Leadership = () => {
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg cartoon" src={afs} alt="gossip "/>
+            <img className="gossipImg cartoon" src={afs} alt="law "/>
             <div className="leader">
 
            
@@ -149,7 +149,7 @@ const Leadership = () => {
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg cartoon" src={awo} alt="gossip "/>
+            <img className="gossipImg cartoon" src={awo} alt="law "/>
             <div className="leader">
 
            

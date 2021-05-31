@@ -23,7 +23,7 @@ const HonourRole = () => {
             <br/>
             <br/>
             <br/>
-            <img className="newsImg cartoon" src={p4} alt="gossip "/>
+            <img className="newsImg cartoon" src={p4} alt="law "/>
             <div className="leader">
 
            
@@ -41,7 +41,7 @@ const HonourRole = () => {
             <br/>
             <br/>
             <br/>
-            <img className="gossipImg cartoon" src={p2} alt="gossip "/>
+            <img className="gossipImg cartoon" src={p2} alt="law "/>
             <div className="leader">
 
            
@@ -61,7 +61,7 @@ const HonourRole = () => {
             </div>
 
             <div className="news">
-            <img className="gossipImg cartoon" src={p3} alt="logo "/>
+            <img className="gossipImg cartoon" src={p3} alt="law "/>
             <div className="leader">
 
            
