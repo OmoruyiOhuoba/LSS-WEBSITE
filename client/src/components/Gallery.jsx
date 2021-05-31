@@ -53,7 +53,7 @@ const Gallery = () => {
                 <br />
                 <br />
             <div>
-            <h1 className="contact-h1">Gallery</h1>
+            <h1 className="contact-h1">Activities</h1>
             <br/>
             <br />
             

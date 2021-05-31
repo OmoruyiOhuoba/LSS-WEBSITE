@@ -20,14 +20,8 @@ const Home = () =>{
                     <h1 className="landing-h1">Justice.</h1>
                 </div>
                 <div className="top-left-pane">
-                    <p className="top-left-title">LSS ABUAD</p>
-                    <p className="top-left-p">PEOPLE</p>
-                    <hr />
-                    <p className="top-left-p">SERVICES </p>
-                    <hr />
-                    <p className="top-left-p">INSIGHTS</p>
-                    <hr />
-                    <p className="top-left-p">OUR STORY</p>
+                    <p className="top-left-title">Law Students' Soceiety ABUAD</p>
+            
 
 
                 </div>
@@ -36,8 +30,9 @@ const Home = () =>{
                     <p className="statement-title">STATEMENT</p>
                     <div className="rectangle-box-content">
                         
-                        <p className="statement-body">Taking over from Buchi Ofulue, Obinna Okolie 
-                            has been announced as the new President of LSS. </p>
+                        <p className="statement-body">The paramount goal of every Society is to further the interests of its members and leave an indelible impression on them. Here at the LSS we work toward this and more.
+
+</p>
                     </div>
 
                 </div>

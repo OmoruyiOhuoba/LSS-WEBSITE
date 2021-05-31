@@ -570,7 +570,7 @@ p{
     color: white;
     margin: auto;
     width: 310px;
-    height: 380px;
+    height: 400px;
     position: absolute;
     padding: 38px;
 
@@ -627,9 +627,9 @@ hr{
 
 .statement-body{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 36px;
-    text-align: left;
+    text-align: justify;
     color: white;
 }
 
