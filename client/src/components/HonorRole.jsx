@@ -27,7 +27,7 @@ const HonourRole = () => {
             <div className="leader">
 
            
-        <h2>2015/2016 Judge & 2016/2017</h2>
+        <h2>2015/2016 Judge & 2016/2017 Chief Judge</h2>
         <p className="leader-p"> Usifo Emoyon-Iredia</p>
         <p className="leader-p"> LinkedIn: Usifo Emoyon-Iredia </p>
 
