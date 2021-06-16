@@ -23,59 +23,45 @@ const HonourRole = () => {
 
             </div>
             <div className= "third-division">
-
+            <br />
+            <br />
+            <br />
+            <br />
             <h1 className="contact-h1">Past Leaders.</h1>
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
 
-            <div className="gossip">
-                <br/>
-                <br/>
-                <br/>
-                <img className="newsImg cartoon" src={p4} alt="law "/>
-                <div className="leader">
-                    <h2>2015/2016 Judge & 2016/2017 Chief Judge</h2>
-                    <p className="leader-p"> Usifo Emoyon-Iredia</p>
-                    <p className="leader-p"> LinkedIn: Usifo Emoyon-Iredia </p>
-                </div>
+
+            <div className="news">
+            <img className="newsImg cartoon" src={p3} alt="law "/>
+            <div className="leader">
+
+           
+            <h2>2019/2020 President</h2>
+            <p className="leader-p"> Chijioke Ukomadu  </p>
+            <p className="leader-p">LinkedIn: Chijioke Ukomadu</p>
+            <p className="leader-p">Twitter, Instagram: Cjay_uk</p>
+            </div>
             </div>
 
             <div className="gossip">
                 <br/>
                 <br/>
                 <br/>
-                <img className="gossipImg cartoon" src={p2} alt="law "/>
+                <img className="gossipImg cartoon" src={p8} alt="law "/>
                 <div className="leader">
-                    <h2>2016/2017 Speaker</h2>
-                    <p className="leader-p">Obinna Ekomaru Esq</p>
-                </div>
-        </div>
-
-             <div className="gossip">
-                <br/>
-                <br/>
-                <br/>
-                <img className="newsImg cartoon" src={p4} alt="law "/>
-                <div className="leader">
-                    <h2>2015/2016 Judge & 2016/2017 Chief Judge</h2>
-                    <p className="leader-p"> Usifo Emoyon-Iredia</p>
-                    <p className="leader-p"> LinkedIn: Usifo Emoyon-Iredia </p>
-                </div>
-            </div>
-
-            <div className="gossip">
-                <br/>
-                <br/>
-                <br/>
-                <img className="gossipImg cartoon" src={p12} alt="law "/>
-                <div className="leader">
-                    <h2>2015/2016 President</h2>
-                    <p className="leader-p">Randle Enitan Akinsoji</p>
-                    <p className="leader-p">twitter@randleenitan, LinkedIn: Enitan Randle</p>
+                    <h2>2020/2021 Chief Judge</h2>
+                    <p className="leader-p">Okonkwo Ebelechukwu</p>
+                    <p className="leader-p">Social Media: princess_ehbey</p>
 
                 </div>
         </div>
+
+       
 
         <div className="gossip">
                 <br/>
@@ -118,12 +104,10 @@ const HonourRole = () => {
                 <br/>
                 <br/>
                 <br/>
-                <img className="gossipImg cartoon" src={p8} alt="law "/>
+                <img className="gossipImg cartoon" src={p2} alt="law "/>
                 <div className="leader">
-                    <h2>2020/2021 Chief Judge</h2>
-                    <p className="leader-p">Okonkwo Ebelechukwu</p>
-                    <p className="leader-p">Social Media: princess_ehbey</p>
-
+                    <h2>2016/2017 Speaker</h2>
+                    <p className="leader-p">Obinna Ekomaru Esq</p>
                 </div>
         </div>
 
@@ -186,17 +170,30 @@ const HonourRole = () => {
             </div>
             </div>
 
-            <div className="news">
-            <img className="gossipImg cartoon" src={p3} alt="law "/>
-            <div className="leader">
+            <div className="gossip">
+                <br/>
+                <br/>
+                <br/>
+                <img className="gossipImg cartoon" src={p4} alt="law "/>
+                <div className="leader">
+                    <h2>2015/2016 Judge & 2016/2017 Chief Judge</h2>
+                    <p className="leader-p"> Usifo Emoyon-Iredia</p>
+                    <p className="leader-p"> LinkedIn: Usifo Emoyon-Iredia </p>
+                </div>
+            </div>
 
-           
-            <h2>2019/2020 President</h2>
-            <p className="leader-p"> Chijioke Ukomadu  </p>
-            <p className="leader-p">LinkedIn: Chijioke Ukomadu</p>
-            <p className="leader-p">Twitter, Instagram: Cjay_uk</p>
-            </div>
-            </div>
+            <div className="gossip">
+                <br/>
+                <br/>
+                <br/>
+                <img className="newsImg cartoon" src={p12} alt="law "/>
+                <div className="leader">
+                    <h2>2015/2016 President</h2>
+                    <p className="leader-p">Randle Enitan Akinsoji</p>
+                    <p className="leader-p">twitter@randleenitan, LinkedIn: Enitan Randle</p>
+
+                </div>
+        </div>
 
 
     
