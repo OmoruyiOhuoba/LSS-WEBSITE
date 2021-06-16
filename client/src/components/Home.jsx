@@ -21,7 +21,7 @@ const Home = () =>{
                     <h1 className="landing-h1">Justice.</h1>
                 </div>
                 <div className="top-left-pane">
-                    <p className="top-left-title">Law Students' Soceiety ABUAD</p>
+                    <p className="top-left-title">Law Students' Society ABUAD</p>
                 {/**<div className="justgoleft">
                     <p className="top-left-p">PEOPLE</p>
                     <hr />
