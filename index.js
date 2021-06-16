@@ -21,6 +21,7 @@ app.use("/api/contact", route );
 
 if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
   /*app.use(enforce.HTTPS({ trustProtoHeader: true }))*/
+  /**removed forced https to try to fix error */
   app.use(express.static('client/build'));
   
   app.get('/*', (req, res) => {
