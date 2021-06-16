@@ -11,6 +11,8 @@ import p9 from "../assets/p9.jpeg";
 import p10 from "../assets/p10.jpeg";
 import p11 from "../assets/p11.jpeg";
 import p12 from "../assets/p12.jpeg";
+import p13 from "../assets/p13.jpeg";
+
 
 
 
@@ -66,14 +68,14 @@ const HonourRole = () => {
                 <br/>
                 <br/>
                 <br/>
-                <img className="gossipImg cartoon" src={p2} alt="law "/>
+                <img className="gossipImg cartoon" src={p12} alt="law "/>
                 <div className="leader">
-                    <h2>2016/2017 Speaker</h2>
-                    <p className="leader-p">Obinna Ekomaru Esq</p>
+                    <h2>2015/2016 President</h2>
+                    <p className="leader-p">Randle Enitan Akinsoji</p>
+                    <p className="leader-p">twitter@randleenitan, LinkedIn: Enitan Randle</p>
+
                 </div>
         </div>
-
-        /* START here*/ 
 
         <div className="gossip">
                 <br/>
@@ -83,7 +85,7 @@ const HonourRole = () => {
                 <div className="leader">
                     <h2>2017/2018 President</h2>
                     <p className="leader-p"> Ekpah Martins</p>
-                    <p className="leader-p"> Instagram; martins_fedoje, Twitter: Fedoje_ </p>
+                    <p className="leader-p">Social Media: Instagram; martins_fedoje, Twitter: Fedoje_ </p>
                 </div>
             </div>
 
@@ -116,10 +118,12 @@ const HonourRole = () => {
                 <br/>
                 <br/>
                 <br/>
-                <img className="gossipImg cartoon" src={p2} alt="law "/>
+                <img className="gossipImg cartoon" src={p8} alt="law "/>
                 <div className="leader">
-                    <h2>2016/2017 Speaker</h2>
-                    <p className="leader-p">Obinna Ekomaru Esq</p>
+                    <h2>2020/2021 Chief Judge</h2>
+                    <p className="leader-p">Okonkwo Ebelechukwu</p>
+                    <p className="leader-p">Social Media: princess_ehbey</p>
+
                 </div>
         </div>
 
@@ -127,11 +131,11 @@ const HonourRole = () => {
                 <br/>
                 <br/>
                 <br/>
-                <img className="newsImg cartoon" src={p4} alt="law "/>
+                <img className="newsImg cartoon" src={p9} alt="law "/>
                 <div className="leader">
-                    <h2>2015/2016 Judge & 2016/2017 Chief Judge</h2>
-                    <p className="leader-p"> Usifo Emoyon-Iredia</p>
-                    <p className="leader-p"> LinkedIn: Usifo Emoyon-Iredia </p>
+                    <h2>2018/2019 Speaker of the LSS Legislative House </h2>
+                    <p className="leader-p"> Bamisope Kupoluyi</p>
+                    <p className="leader-p">Social Media: twitter- bamisope_, Instagram- bamisope </p>
                 </div>
             </div>
 
@@ -139,10 +143,12 @@ const HonourRole = () => {
                 <br/>
                 <br/>
                 <br/>
-                <img className="gossipImg cartoon" src={p2} alt="law "/>
+                <img className="gossipImg cartoon" src={p10} alt="law "/>
                 <div className="leader">
-                    <h2>2016/2017 Speaker</h2>
-                    <p className="leader-p">Obinna Ekomaru Esq</p>
+                    <h2>Chief Judge 2017/2018</h2>
+                    <p className="leader-p">Anita Osiagwu</p>
+                    <p className="leader-p">Social Media: @anitaosiagwu</p>
+
                 </div>
         </div>
 
@@ -150,11 +156,11 @@ const HonourRole = () => {
                 <br/>
                 <br/>
                 <br/>
-                <img className="newsImg cartoon" src={p4} alt="law "/>
+                <img className="newsImg cartoon" src={p11} alt="law "/>
                 <div className="leader">
-                    <h2>2015/2016 Judge & 2016/2017 Chief Judge</h2>
-                    <p className="leader-p"> Usifo Emoyon-Iredia</p>
-                    <p className="leader-p"> LinkedIn: Usifo Emoyon-Iredia </p>
+                    <h2> 2019/2020  Speaker of the Legislative House</h2>
+                    <p className="leader-p"> Adetimehin Toluwanimi</p>
+                    <p className="leader-p"> Social Media: Twitter: tolu_19, Instagram: tiolv_ </p>
                 </div>
             </div>
 
@@ -162,18 +168,12 @@ const HonourRole = () => {
                 <br/>
                 <br/>
                 <br/>
-                <img className="gossipImg cartoon" src={p2} alt="law "/>
+                <img className="gossipImg cartoon" src={p13} alt="law "/>
                 <div className="leader">
-                    <h2>2016/2017 Speaker</h2>
-                    <p className="leader-p">Obinna Ekomaru Esq</p>
+                    <h2>2014/2015 Chief Judge</h2>
+                    <p className="leader-p">Tommy Ojoge-Daniel</p>
                 </div>
         </div>
-
-
-        /*stop here*/
-
-
-
 
         <div className="news">
             <img className="newsImg cartoon" src={p1} alt="logo "/>
@@ -194,8 +194,7 @@ const HonourRole = () => {
             <h2>2019/2020 President</h2>
             <p className="leader-p"> Chijioke Ukomadu  </p>
             <p className="leader-p">LinkedIn: Chijioke Ukomadu</p>
-            <p className="leader-p">Twitter: Cjay_uk</p>
-            <p className="leader-p">Instagram: Cjay_uk </p>
+            <p className="leader-p">Twitter, Instagram: Cjay_uk</p>
             </div>
             </div>
 
