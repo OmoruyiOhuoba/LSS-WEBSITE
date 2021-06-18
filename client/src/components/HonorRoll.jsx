@@ -16,7 +16,7 @@ import p13 from "../assets/p13.jpeg";
 
 
 
-const HonourRole = () => {
+const HonourRoll = () => {
     return (
     <div>
             <div className="top-of-third-division arc">
@@ -206,4 +206,4 @@ const HonourRole = () => {
     )
 }
 
-export default HonourRole;
+export default HonourRoll;

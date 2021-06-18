@@ -11,6 +11,9 @@ import fs from "../assets/fs.jpg";
 import afs from "../assets/afs.jpg";
 import wd from "../assets/wd.jpg";
 import awo from "../assets/awo.jpg";
+import judiciary from "../assets/judiciary.jpeg";
+import legislature from "../assets/legislature.jpeg";
+
 
 
 
@@ -23,6 +26,9 @@ const Leadership = () => {
             <div className= "third-division">
 
             <h1 className="contact-h1">Our Leaders.</h1>
+            <br />
+            <br />
+            <h1>The Executive</h1>
             <br />
             <br />
             <br />
@@ -156,6 +162,60 @@ const Leadership = () => {
         <h2>Assistant Welfare Director</h2>
         <p className="leader-p"> Nwugo Shiloh</p>
 </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+       
+        <div>
+
+        <h1>The Judiciary</h1>
+        <br />
+        <br />
+        <br />
+        <br />
+        <img src={judiciary} alt="judiciary" className="fit-image"/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <p className="gallery-p">L-R (seated)- Chukwunweike Araka (Judge), Halima Adeola-Bello (Judge), Amara Ojiaka (Judge), Boluwatife Olawole (Judge), Amber Douglas (Judge), Peace Bayiere (Judge), Ebele Okonkwo (Chief Judge), Timisayo Oyinlola (Judge), Precious Adewoyin (Clerk), Maria Aleyee (Clerk), Virtue Anyakwe (Clerk), Adebola Oriolowo-Niyi (Clerk), Jehovakeno Ogwerel (Clerk)
+
+L-R (standing)- Abdulazeez Abiodun, Ademola Anointing (Chief Registrar), Favour Ogunleye (Clerk), George Ukuku (Clerk)</p>
+
+
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+       
+        <div>
+
+        <h1>The Legislative House</h1>
+        <br />
+        <br />
+        <br />
+        <br />
+        <img src={legislature} alt="legislature" className="fit-image"/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <p className="gallery-p">L-R Seyi Soyoola, Boma Lambert, Bolarinwa Lebile (Clerk), Rasheed Aro, Kolawole Adebayo, Mark Chuku, Abimifoluwa Ogedengbe (Sergeant at Arms), Ogaga Odjugo. Hakima Ishola , Harriet Fufeyin, Anne Obieze
+Folakemi Aiyedogbon (Chief Whip), Kenechukwu Ibekwe, Ebuka Ewenike (Speaker), Emeka Anyanwu (Deputy Speaker), Jemimah Adio.</p>
+<br />
+        <br />
+        <br />
+        <br />
+<br />
+        <br />
         </div>
     
     <br/>

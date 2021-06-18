@@ -10,7 +10,7 @@ import Contact from "./Contact";
 import NavBar from "./Layout/NavBar";
 import Footer from "./Layout/Footer";
 import Articles from "./Articles";
-import HonourRole from "./HonorRole";
+import HonourRoll from "./HonorRoll";
 
 const App = () =>{
     return(
@@ -24,7 +24,7 @@ const App = () =>{
                     <Route path="/leadership" component={Leadership} />
                     <Route path="/activities" component={Gallery} />
                     <Route path="/articles" component={Articles}/>
-                    <Route path="/honourrole" component={HonourRole}/>
+                    <Route path="/honourroll" component={HonourRoll}/>
                     <Route path="/contact" component={Contact}/>
                 </Switch>
                 

@@ -51,11 +51,11 @@ const NavBar = () => {
             </li>
             <li className='nav-item cont'>
               <Link
-                to='/honourrole'
-                onClick={() => setActive('honourrole')}
-                className={active === 'honourrole' ? 'active' : null}
+                to='/honourroll'
+                onClick={() => setActive('honourroll')}
+                className={active === 'honourroll' ? 'active' : null}
               >
-              HONOUR ROLE
+              HONOUR ROLL
               </Link>
             </li>
             <li className='nav-item cont'>
@@ -107,11 +107,11 @@ const NavBar = () => {
             </li>
             <li className='nav-item dropped'>
               <Link
-                to='/honourrole'
-                onClick={() => setActive('honourrole')}
-                className={active === 'honourrole' ? 'active' : null}
+                to='/honourroll'
+                onClick={() => setActive('honourroll')}
+                className={active === 'honourroll' ? 'active' : null}
               >
-                HONOUR ROLE
+                HONOUR ROLL
               </Link>
             </li>
             <li className='nav-item dropped'>
